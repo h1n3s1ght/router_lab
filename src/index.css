@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  color: black;
+  background-color: cadetblue;
+  padding: 5% 0%;
+}
+
+.nav-element a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-element a:hover {
+  color: white;
+  background-color: black;
+  padding: 10%;
+  border-radius: 15px;
+}
+
+.stockPage a {
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color:cadetblue;
+  margin: 4%;
+  padding: 10% 0%;
+}
+
+.stockPage a:hover {
+  color: black;
+}
+
+.stockName {
+  width:50%;
+  margin-left: 23.5%;
+}
+
+.App {
+  background-color: khaki;
+  height: 100vh;
+}
